@@ -1,0 +1,49 @@
+.wrap{
+  width: 600px;
+  margin: 10px auto;
+}
+body{
+  background: #d6f0fd;
+  font-family: 'Courier New', Courier, monospace;
+}
+h1{
+  text-align: center;
+}
+.card{
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 15px;
+}
+.card span{
+  font-weight: bold;
+}
+.loader{
+  text-align: center;
+}
+input{
+  background-color: #fff;
+  width: 578px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+}
+.pagination{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.prev, .next{
+  text-align: center;
+  color: #fff;
+  background: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.page-number{
+  padding: 0px 15px;
+}
